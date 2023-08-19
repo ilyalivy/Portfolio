@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif; 
+}
+
+.info {
+    height: auto; 
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* четыре колонки */
+    grid-template-rows: auto auto auto 1fr;
+    gap: 50px; /* расстояние между элементами grid */
+    
+    
+}
+  
+.myskills {
+    grid-column: 1 / 2; /* div2 занимает первую колонку */
+    grid-row: 1 / 4; /* div1 начинается с 1-й строки и заканчивается на 3-й строке */
+    grid-template-rows: repeat(4, 1fr); /* четыре строки */
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    font-size: 35px;
+}
+
+.mstitle {
+    font-size: 50px;
+}
+  
+.mycontacts {
+    grid-column: 1 / 2; /* div2 занимает первую колонку */
+    grid-row: 4 / 5; /* div2 занимает 4-ю строку */
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    font-size: 20px;
+    max-height: 120px;
+}
+  
+.myprojects {
+    grid-column: 2 / 5; /* div3 начинается с 2-й колонки и заканчивается на 4-й колонке */
+    grid-row: 1 / 5; /* div3 начинается с 1-й строки и заканчивается на 4-й строке */
+    background-color: white;
+    border-radius: 25px;
+    font-size: 50px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.chandler {
+    height: 360px;
+    width: 720px;
+}
+
+.simplehabits {
+    height: 360px;
+    width: 720px;
+}
+
+.reboot_mind {
+    height: 360px;
+    width: 720px;
+}
+
+.lincoln {
+    height: 360px;
+    width: 720px;
+}
+
+a {
+    height: 360px;
+    width: 720px;
+}
