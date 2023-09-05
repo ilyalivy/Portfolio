@@ -24,9 +24,7 @@ const Profile = () => {
         </div>
 
         <div class="mycontacts">
-            <h4>My contacts</h4>
-            <p>i@gmail.com</p>
-            <p><a href="https://www.linkedin.com/in/ilyalivy/" target="_blank">LinkedIn</a></p>
+            <h1><a href="https://www.linkedin.com/in/ilyalivy/" target="_blank">LinkedIn</a></h1>
 
         </div>
 

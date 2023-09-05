@@ -7,10 +7,10 @@ const Header = () => {
     <div className="header">
         <div className="logo">
           <img src={photo} alt="" className='photo'/>
-          <h3 className='name'>Ilya Livschitz</h3>
+          <h1 className='name'>Ilya Livschitz</h1>
         </div>
         <div>
-        <h3 className="medium"><a href="https://medium.com/@ilyalivy" target="_blank">Medium</a></h3>
+        <h1 className="medium"><a href="https://medium.com/@ilyalivy" target="_blank">Medium</a></h1>
         </div>
     </div>
   )
