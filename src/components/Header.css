@@ -20,6 +20,7 @@
     height: 85px;
     width: 85px;
     border-radius: 15px;
+    object-fit: cover;
 }
 
 .logo {
