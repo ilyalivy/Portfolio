@@ -6,7 +6,7 @@
 }
 
 .info {
-    height: auto; 
+    height: auto;
     width: 80%;
     margin: 0 auto;
     margin-top: 50px;
@@ -30,11 +30,11 @@
     flex-direction: column;
     justify-content: space-around;
     gap: 10px;
-    font-size: 35px;
+    font-size: 3vw;
 }
 
 .mstitle {
-    font-size: 50px;
+    font-size: 3.5vw;
 }
   
 .mycontacts {
@@ -47,7 +47,7 @@
     flex-direction: column;
     justify-content: space-around;
     gap: 10px;
-    font-size: 20px;
+    font-size: 1.35vw;
     max-height: 120px;
 }
   
@@ -56,7 +56,7 @@
     grid-row: 1 / 5; /* div3 начинается с 1-й строки и заканчивается на 4-й строке */
     background-color: white;
     border-radius: 25px;
-    font-size: 50px;
+    font-size: 4vw;
 }
 
 .images {
@@ -66,27 +66,12 @@
     margin: 25px 0;
 }
 
-.chandler {
-    height: 360px;
-    width: 720px;
-}
-
-.simplehabits {
-    height: 360px;
-    width: 720px;
-}
-
-.reboot_mind {
-    height: 360px;
-    width: 720px;
-}
-
-.lincoln {
-    height: 360px;
-    width: 720px;
+.chandler, .simplehabits, .reboot_mind, .lincoln {
+    height: auto;
+    width: 100%;
+    max-width: 720px; /* Set a maximum width for the images */
 }
 
 a {
-    height: 360px;
-    width: 720px;
+    line-height: 0;
 }
