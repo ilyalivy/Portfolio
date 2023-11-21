@@ -12,15 +12,14 @@ const Profile = () => {
         
       <div class="myskills">
             <h4 className='mstitle'>My skills</h4>
-            <p>HTML</p>
-            <p>CSS</p>
             <p>JavaScript</p>
+            <p>TypeScript</p>
             <p>React</p>
             <p>Node.js</p>
             <p>SQL</p>
             <p>Python</p>
-            <p>OOP</p>
-            <p>Django</p>
+            <p>HTML5</p>
+            <p>CSS3</p>
         </div>
 
         <div class="mycontacts">
