@@ -15,9 +15,11 @@ const Profile = () => {
             <p>HTML5</p>
             <p>CSS3</p>
             <p>JavaScript</p>
+            <p>TypeScript</p>
             <p>React</p>
             <p>Node.js</p>
             <p>SQL</p>
+            <p>Python</p>
         </div>
 
         <div class="mycontacts">
